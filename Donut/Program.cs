@@ -42,8 +42,8 @@ using IHost host = Host.CreateDefaultBuilder(args)
         });
         services.ConfigureLavalink(config =>
         {
-            config.BaseAddress = new Uri("http://lavalink.jirayu.pw:2333");
-            config.WebSocketUri = new Uri("ws://lavalink.jirayu.pw:2333/v4/websocket");
+            config.BaseAddress = new Uri("http://lavalink.jirayu.pw:2343");
+            config.WebSocketUri = new Uri("ws://lavalink.jirayu.pw:2343/v4/websocket");
             config.ReadyTimeout = TimeSpan.FromSeconds(10);
             config.Label = "SAKURA";
             config.Passphrase = "youshallnotpass";
